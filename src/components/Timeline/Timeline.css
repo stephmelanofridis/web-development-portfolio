@@ -19,21 +19,21 @@
 }
 
 .timeline .timeline-dot-header {
-    color: var(--white);
-    background-color: var(--pastelpink);
-    border-color: var(--lightcream);
+    color: var(--lightcream);
+    background-color: var(--burntorange);
+    border-color: var(--deeppink);
     font-size: 12px;
     padding: 10px;
 }
 
 .timeline .timeline-dot {
-    color: var(--white);
-    background-color: var(--dustypink);
+    color: var(--lightcream);
+    background-color: var(--lightcream);
     padding: 2px;   
 }
 
 .timeline .MuiTimelineConnector-root {
-    background-color: var(--lightcream);
+    background-color: var(--deeppink);
 }
 
 .timeline .timeline-dot-header > .MuiSvgIcon-root {

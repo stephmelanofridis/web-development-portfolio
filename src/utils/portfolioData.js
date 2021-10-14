@@ -11,12 +11,12 @@ export default {
     address: '76 Tindale Street, MUSWELLBROOK, NSW 2333',
     phone: '0432 954 263',
     socials: {
-        linkedIn: {
+        LinkedIn: {
             link: 'https://www.linkedin.com/in/steph-melanofridis-0204181a3/',
             text: 'Linked In',
             icon: <LinkedInIcon />,
         },
-        github: {
+        GitHub: {
             link: 'https://github.com/stephmelanofridis',
             text: 'GitHub',
             icon: <GitHubIcon />,

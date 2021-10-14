@@ -1,27 +1,28 @@
 import { Typography } from '@mui/material';
-// eslint-disable-next-line
 import CustomTimeline, { CustomTimelineSeparator } from '../Timeline/Timeline';
-// eslint-disable-next-line
 import TimelineItem from '@mui/lab/TimelineItem';
-// eslint-disable-next-line
 import TimelineContent from '@mui/lab/TimelineContent';
 import portfolioData from '../../utils/portfolioData';
+import CustomButton from '../Button/Button';
+import DownloadIcon from '@mui/icons-material/Download';
 import './Profile.css';
+import Resume from '../../pages/Resume/Resume';
 
-{/*const CustomTimelineItem = ({ title, text, link }) => (
+
+const CustomTimelineItem = ({ title, text, link }) => (
     <TimelineItem>
         <CustomTimelineSeparator />
-        <TimelineContent>
+        <TimelineContent className='timeline-content'>
             {link ? (
-                <Typography>
+                <Typography className='timeline-item-text'>
                     <span>{title}:</span>
                     <a href={link} target='_blank'>{text}</a>
                 </Typography>) : (
                 <Typography><span>{title}:</span>{text}</Typography>
             )}
         </TimelineContent>
-    </TimelineItem> 
-)*/}
+    </TimelineItem>
+)
 
 const Profile = () => {
     return (
@@ -38,11 +39,20 @@ const Profile = () => {
 
             <div className='profile-info'>
                 <CustomTimeline>
-
+                    {/*} Timeline under bio
+                    <CustomTimelineItem title='name' text={portfolioData.name} />
+                    <CustomTimelineItem title='name' text={portfolioData.title} />
+                    <CustomTimelineItem title='name' text={portfolioData.email} />
+                    */}
+                    {Object.keys(portfolioData.socials).map(key => (
+                        <CustomTimelineItem title={key} text={portfolioData.socials[key].text} link={portfolioData.socials[key].link} />
+                    ))}
                 </CustomTimeline>
-
-                <button>Button</button>
+                <div className='btn-container'>
+                    <CustomButton className='btn' text={<span className='btn-text'>Download CV</span>} endIcon={<span className='btn-icon-container'><DownloadIcon /></span>} />
+                </div>
             </div>
+
         </div>
     )
 }

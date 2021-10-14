@@ -31,3 +31,29 @@
     width: 100%;
 }
 
+.profile-info {
+    top: 0;
+    left: 0;
+    margin: -44px 10px 30px;
+}
+
+.profile-info .timeline .timeline-content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.timeline-item-text > span {
+    font-size: 13.5px;
+    color: var(--chocolateblack);
+    font-weight: 400;
+}
+
+.timeline-item-text {
+    font-size: 13.5px;
+    color:#777;
+    font-weight: 400;
+}
+
+.timeline-item-text a {
+    text-decoration: none;
+}
