@@ -19,8 +19,8 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs>
-          <Header />
           <Router >
+            <Header />
             <Switch>
               <Route path='/about'><About /></Route>
               <Route path='/portfolio'><Portfolio /></Route>
