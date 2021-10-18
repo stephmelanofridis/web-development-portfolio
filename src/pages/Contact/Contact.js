@@ -1,4 +1,3 @@
-import { ContactlessOutlined } from '@mui/icons-material';
 import React from 'react';
 
 const Contact = () => {

@@ -28,4 +28,6 @@ export default {
             icon: <FileDownloadIcon />,
         },
     },
+
+    about: 'Passion for coding and in particular CSS, has led me to a career change into Front End Web Development. I am currently completing Certificate IV in Web-Based Technologies from TAFE NSW and a Certificate in Full Stack Development from the University of Sydney. \n \n I am developing skills in multiple programming languages, web-design principles, web API’s, business requirements, project management and collaboration with teams on real projects. My previous experience in Property Management brings excellent communication with clients, organisational skills, problem solving, attention to detail and ability to manage a fast-paced work environment efficiently.'
 };

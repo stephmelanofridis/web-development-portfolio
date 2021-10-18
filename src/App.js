@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
 import About from './pages/About/About';
 import Portfolio from './pages/Portfolio/Portfolio';
+import Contact from './pages/Contact/Contact';
 import Resume from './pages/Resume/Resume';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -21,12 +22,15 @@ function App() {
         <Grid item xs>
           <Router >
             <Header />
-            <Switch>
-              <Route path='/about'><About /></Route>
-              <Route path='/portfolio'><Portfolio /></Route>
-              <Route path='/resume'><Resume /></Route>
-              <Route path='/'><About /></Route>
-            </Switch>
+            <div className='main-content'>
+              <Switch>
+                <Route path='/about'><About /></Route>
+                <Route path='/portfolio'><Portfolio /></Route>
+                <Route path='/resume'><Resume /></Route>
+                <Route path='/contact'><Contact /></Route>
+                <Route path='/'><About /></Route>
+              </Switch>
+            </div>
           </Router>
           <Footer />
         </Grid>
