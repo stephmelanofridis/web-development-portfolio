@@ -1,24 +1,28 @@
 import { Typography } from '@mui/material';
-import CustomTimeline, { CustomTimelineSeparator } from '../Timeline/Timeline';
+import CustomTimeline from '../Timeline/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineDot from '@mui/lab/TimelineDot';
+import TimelineConnector from '@mui/lab/TimelineConnector';
 import portfolioData from '../../utils/portfolioData';
-import CustomButton from '../Button/Button';
-import DownloadIcon from '@mui/icons-material/Download';
 import './Profile.css';
-import Resume from '../../pages/Resume/Resume';
 
 
-const CustomTimelineItem = ({ title, text, link }) => (
+
+const CustomTimelineItem = ({ text, link, icon }) => (
+
     <TimelineItem>
-        <CustomTimelineSeparator />
+        <TimelineSeparator className={'separator-padding'}>
+            <TimelineDot className={'timeline-dot'}></TimelineDot>
+            <TimelineConnector />
+        </TimelineSeparator>
         <TimelineContent className='timeline-content'>
             {link ? (
                 <Typography className='timeline-item-text'>
-                    <span>{title}:</span>
                     <a href={link} target='_blank'>{text}</a>
                 </Typography>) : (
-                <Typography><span>{title}:</span>{text}</Typography>
+                <Typography>{text}</Typography>
             )}
         </TimelineContent>
     </TimelineItem>
@@ -39,18 +43,16 @@ const Profile = () => {
 
             <div className='profile-info'>
                 <CustomTimeline>
+                    <CustomTimelineItem title='name' text={portfolioData.bio} />
                     {/*} Timeline under bio
                     <CustomTimelineItem title='name' text={portfolioData.name} />
                     <CustomTimelineItem title='name' text={portfolioData.title} />
                     <CustomTimelineItem title='name' text={portfolioData.email} />
                     */}
-                    {Object.keys(portfolioData.socials).map(key => (
-                        <CustomTimelineItem title={key} text={portfolioData.socials[key].text} link={portfolioData.socials[key].link} />
+                    {Object.keys(portfolioData.links).map(key => (
+                        <CustomTimelineItem icon={portfolioData.links[key].icon} title={key} text={portfolioData.links[key].text} link={portfolioData.links[key].link} />
                     ))}
                 </CustomTimeline>
-                <div className='btn-container'>
-                    <CustomButton className='btn' text={<span className='btn-text'>Download CV</span>} endIcon={<span className='btn-icon-container'><DownloadIcon /></span>} />
-                </div>
             </div>
 
         </div>

@@ -7,7 +7,7 @@
 }
 
 .timeline .timeline-first-item {
-    min-height: 80px;
+    margin-top: 30px;
 }
 
 .timeline .MuiTimelineItem-root {
@@ -29,7 +29,7 @@
 .timeline .timeline-dot {
     color: var(--lightcream);
     background-color: var(--lightcream);
-    padding: 2px;   
+    padding: 10px;   
 }
 
 .timeline .MuiTimelineConnector-root {
@@ -48,4 +48,11 @@
 .timeline .timeline-content {
     padding-top: 0px;
     margin-bottom: 20px;
+}
+
+.timeline .timeline-content-bio {
+    font-size: 15px;
+    font-family: jaf-bernino-sans-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

@@ -11,14 +11,21 @@
 }
 
 .profile-name .name {
-    text-transform: uppercase;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: bold;
+    font-family: timberline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .profile-name .title {
-    font-size: 13px;
+    text-transform: uppercase;
+    font-family: jaf-bernino-sans-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
     color: #777;
+    text-align: center;
 }
 
 .profile-image {
@@ -56,4 +63,13 @@
 
 .timeline-item-text a {
     text-decoration: none;
+}
+
+.timeline .timeline-dot {
+    border: var(--deeppink);
+}
+
+.MuiSvgIcon-root {
+    color: var(--burntorange);
+    z-index: 1;
 }
