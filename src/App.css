@@ -59,10 +59,8 @@
 }
 
 .section .section-text {
-    font-family: le-havre, sans-serif;
-    font-weight: 200;
-    font-style: normal;
     font-size: 17px;
+    font-weight: 100;
     color: var(--chocolateblack);
     padding: 25px;
     line-height: 1;

@@ -18,22 +18,22 @@
     display: none;
 }
 
+.timeline .MuiSvgIcon-root {
+    color: var(--burntorange);
+}
+
 .timeline .timeline-dot-header {
-    color: var(--lightcream);
-    background-color: var(--burntorange);
-    border-color: var(--deeppink);
-    font-size: 12px;
+    color: var(--burntorange);
+    background-color: var(--lightcream);
+    font-size: small;
     padding: 10px;
 }
 
 .timeline .timeline-dot {
-    color: var(--lightcream);
     background-color: var(--lightcream);
-    padding: 10px;   
-}
-
-.timeline .MuiTimelineConnector-root {
-    background-color: var(--deeppink);
+    border: var(--deeppink);
+    font-size: small;
+    padding: 10px;
 }
 
 .timeline .timeline-dot-header > .MuiSvgIcon-root {
@@ -42,7 +42,7 @@
 }
 
 .timeline .separator-padding {
-    padding-left: 18px;
+    padding-left: 9px;
 }
 
 .timeline .timeline-content {

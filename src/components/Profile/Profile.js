@@ -6,6 +6,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import portfolioData from '../../utils/portfolioData';
+import CustomButton from '../Button/Button';
 import './Profile.css';
 
 
@@ -14,7 +15,7 @@ const CustomTimelineItem = ({ text, link, icon }) => (
 
     <TimelineItem>
         <TimelineSeparator className={'separator-padding'}>
-            <TimelineDot className={'timeline-dot'}></TimelineDot>
+            <TimelineDot className={'timeline-dot'}>{icon}</TimelineDot>
             <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent className='timeline-content'>
@@ -42,21 +43,20 @@ const Profile = () => {
             </figure>
 
             <div className='profile-info'>
-                <CustomTimeline>
-                    <CustomTimelineItem title='name' text={portfolioData.bio} />
-                    {/*} Timeline under bio
-                    <CustomTimelineItem title='name' text={portfolioData.name} />
-                    <CustomTimelineItem title='name' text={portfolioData.title} />
-                    <CustomTimelineItem title='name' text={portfolioData.email} />
-                    */}
+                <div className='divider'></div>
+                <div className='center'>
                     {Object.keys(portfolioData.links).map(key => (
-                        <CustomTimelineItem icon={portfolioData.links[key].icon} title={key} text={portfolioData.links[key].text} link={portfolioData.links[key].link} />
+                        <CustomButton endIcon={portfolioData.links[key].icon} text={portfolioData.links[key].text} link={portfolioData.links[key].link} className='btn' />
                     ))}
-                </CustomTimeline>
+                </div>
+            </div>
+            <div>
+                <CustomTimeline />
             </div>
 
         </div>
     )
 }
+
 
 export default Profile

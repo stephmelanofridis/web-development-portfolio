@@ -42,6 +42,9 @@
     top: 0;
     left: 0;
     margin: -44px 10px 30px;
+    font-family: jaf-bernino-sans-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .profile-info .timeline .timeline-content {
@@ -73,3 +76,17 @@
     color: var(--burntorange);
     z-index: 1;
 }
+
+ul.MuiTimeline-root {
+    padding-top: 40px;
+}
+
+.divider {
+    height: 60px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
