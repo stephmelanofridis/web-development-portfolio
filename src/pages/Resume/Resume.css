@@ -1,0 +1,26 @@
+.resume-timeline {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.resume-timeline .timeline-content .timeline-title {
+    color: var(--chocolateblack);
+    font-weight: 700;
+}
+
+.resume-timeline .timeline-content .timeline-description {
+    color: #777;
+    font-size: small;
+}
+
+.resume-timeline .MuiTimelineConnector-root {
+    background-color: var(--burntorange);
+}
+
+ul.MuiTimeline-root {
+    padding-top: 5px;
+}
+
+.timeline-content p.MuiTypography-root {
+    padding-top: 12px;
+}

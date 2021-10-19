@@ -5,9 +5,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import WorkIcon from '@mui/icons-material/Work'
 import { Typography } from '@mui/material';
-;
 import '../Timeline/Timeline.css'
 
 const CustomTimeline = ({ title, children, icon }) => {
@@ -33,6 +31,24 @@ export const CustomTimelineSeparator = () => (
         <TimelineDot variant='outlined' className={'timeline-dot'} />
         <TimelineConnector />
     </TimelineSeparator>
+)
+
+export const CustomTimelineItem = ({ text, link, icon }) => (
+
+    <TimelineItem>
+        <TimelineSeparator className={'separator-padding'}>
+            <TimelineDot className={'timeline-dot'}>{icon}</TimelineDot>
+            <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent className='timeline-content'>
+            {link ? (
+                <Typography className='timeline-item-text'>
+                    <a href={link} target='_blank'>{text}</a>
+                </Typography>) : (
+                <Typography>{text}</Typography>
+            )}
+        </TimelineContent>
+    </TimelineItem>
 )
 
 export default CustomTimeline;

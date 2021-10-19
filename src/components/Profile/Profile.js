@@ -1,33 +1,7 @@
 import { Typography } from '@mui/material';
-import CustomTimeline from '../Timeline/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineDot from '@mui/lab/TimelineDot';
-import TimelineConnector from '@mui/lab/TimelineConnector';
 import portfolioData from '../../utils/portfolioData';
 import CustomButton from '../Button/Button';
 import './Profile.css';
-
-
-
-const CustomTimelineItem = ({ text, link, icon }) => (
-
-    <TimelineItem>
-        <TimelineSeparator className={'separator-padding'}>
-            <TimelineDot className={'timeline-dot'}>{icon}</TimelineDot>
-            <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent className='timeline-content'>
-            {link ? (
-                <Typography className='timeline-item-text'>
-                    <a href={link} target='_blank'>{text}</a>
-                </Typography>) : (
-                <Typography>{text}</Typography>
-            )}
-        </TimelineContent>
-    </TimelineItem>
-)
 
 const Profile = () => {
     return (
@@ -50,13 +24,8 @@ const Profile = () => {
                     ))}
                 </div>
             </div>
-            <div>
-                <CustomTimeline />
-            </div>
-
         </div>
     )
 }
-
 
 export default Profile
