@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 
 export default {
     name: 'Steph Melanofridis',
@@ -103,6 +104,44 @@ export default {
                 'Express.js',
                 'MySQL',
                 'MongoDB',
+            ],
+        },
+    ],
+    portfolio: [
+        {
+            image: require('../assets/images/projects/password-generator.PNG'),
+            title: 'Password Generator',
+            description: 'A random password generator created in week 3 of coding bootcamp.',
+            links: [
+                { GitHubLink: 'https://github.com/stephmelanofridis/homework-03-password-generator', icon: <GitHubIcon /> },
+                { DeployedProjectLink: 'https://stephmelanofridis.github.io/homework-03-password-generator/', icon: <CloudUploadIcon /> },
+            ],
+        },
+        {
+            image: require('../assets/images/projects/group-project-covid-stats.PNG'),
+            title: 'Group Project 1 - Covid Statistics',
+            description: 'A Covid-19 Statistics app for first group project created in week 7 of coding bootcamp.',
+            links: [
+                { GitHubLink: 'https://github.com/rpgarde/project-1-covid-stats', icon: <GitHubIcon /> },
+                { DeployedProjectLink: 'https://rpgarde.github.io/project-1-covid-stats/', icon: <CloudUploadIcon /> },
+            ],
+        },
+        {
+            image: require('../assets/images/projects/tech-blog.PNG'),
+            title: 'Tech Blog',
+            description: 'A CMS style tech blog created in week 15 of coding bootcamp.',
+            links: [
+                { GitHubLink: 'https://github.com/stephmelanofridis/homework-15-tech-blog', icon: <GitHubIcon /> },
+                { DeployedProjectLink: 'https://homework-15-tech-blog.herokuapp.com/loginsignup', icon: <CloudUploadIcon /> },
+            ],
+        },
+        {
+            image: require('../assets/images/projects/budgie.PNG'),
+            title: 'Budgie',
+            description: 'A budgeting app for second group project created in week 16 of coding bootcamp.',
+            links: [
+                { GitHubLink: 'https://github.com/Fonyx/budgie', icon: <GitHubIcon /> },
+                { DeployedProjectLink: 'https://fonyx-budgie.herokuapp.com/', icon: <CloudUploadIcon /> },
             ],
         },
     ],

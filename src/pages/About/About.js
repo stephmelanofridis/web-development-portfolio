@@ -1,6 +1,5 @@
 import React from 'react';
 import { Typography, Grid, Paper } from '@mui/material';
-import TimelineDot from '@mui/lab/TimelineDot';
 import portfolioData from '../../utils/portfolioData';
 import './About.css';
 
