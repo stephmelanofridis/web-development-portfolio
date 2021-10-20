@@ -107,11 +107,12 @@ export default {
             ],
         },
     ],
-    portfolio: [
+    projects: [
         {
             image: require('../assets/images/projects/password-generator.PNG'),
             title: 'Password Generator',
             description: 'A random password generator created in week 3 of coding bootcamp.',
+            caption: '',
             links: [
                 { GitHubLink: 'https://github.com/stephmelanofridis/homework-03-password-generator', icon: <GitHubIcon /> },
                 { DeployedProjectLink: 'https://stephmelanofridis.github.io/homework-03-password-generator/', icon: <CloudUploadIcon /> },
@@ -121,6 +122,7 @@ export default {
             image: require('../assets/images/projects/group-project-covid-stats.PNG'),
             title: 'Group Project 1 - Covid Statistics',
             description: 'A Covid-19 Statistics app for first group project created in week 7 of coding bootcamp.',
+            caption: '',
             links: [
                 { GitHubLink: 'https://github.com/rpgarde/project-1-covid-stats', icon: <GitHubIcon /> },
                 { DeployedProjectLink: 'https://rpgarde.github.io/project-1-covid-stats/', icon: <CloudUploadIcon /> },
@@ -130,6 +132,7 @@ export default {
             image: require('../assets/images/projects/tech-blog.PNG'),
             title: 'Tech Blog',
             description: 'A CMS style tech blog created in week 15 of coding bootcamp.',
+            caption: '',
             links: [
                 { GitHubLink: 'https://github.com/stephmelanofridis/homework-15-tech-blog', icon: <GitHubIcon /> },
                 { DeployedProjectLink: 'https://homework-15-tech-blog.herokuapp.com/loginsignup', icon: <CloudUploadIcon /> },
@@ -139,6 +142,7 @@ export default {
             image: require('../assets/images/projects/budgie.PNG'),
             title: 'Budgie',
             description: 'A budgeting app for second group project created in week 16 of coding bootcamp.',
+            caption: '',
             links: [
                 { GitHubLink: 'https://github.com/Fonyx/budgie', icon: <GitHubIcon /> },
                 { DeployedProjectLink: 'https://fonyx-budgie.herokuapp.com/', icon: <CloudUploadIcon /> },
