@@ -1,6 +1,8 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export default {
     name: 'Steph Melanofridis',
@@ -28,7 +30,18 @@ export default {
             icon: <FileDownloadIcon />,
         },
     },
-
+    socials: {
+        Facebook: {
+            link: 'https://www.facebook.com/stephmelanofridis/',
+            text: 'Facebook',
+            icon: <FacebookIcon />,
+        },
+        Instagram: {
+            link: 'https://www.instagram.com/stephmelanofridis/',
+            text: 'Instagram',
+            icon: <InstagramIcon />,
+        },
+    },
     about: 'Passion for coding and in particular CSS, has led me to a career change into Front End Web Development. I am currently completing Certificate IV in Web-Based Technologies from TAFE NSW and a Certificate in Full Stack Development from the University of Sydney. \n \n I am developing skills in multiple programming languages, web-design principles, web API’s, business requirements, project management and collaboration with teams on real projects. My previous experience in Property Management brings excellent communication with clients, organisational skills, problem solving, attention to detail and ability to manage a fast-paced work environment efficiently.',
     workingHistory: [
         {
@@ -67,6 +80,30 @@ export default {
             title: 'Tomaree High School',
             date: '2007 - 2011',
             description: 'Higher School Certificate - Year 12 Subjects: Advanced English, Legal Studies, Mathematics, Drama, Modern History',
+        },
+    ],
+    skills: [
+        {
+            title: 'Front-End',
+            description: [
+                'HTML',
+                'CSS',
+                'Javascript',
+                'NPM',
+                'Bootstrap',
+                'jQuery',
+                'React',
+                'GitHub',
+            ],
+        },
+        {
+            title: 'Back-End',
+            description: [
+                'Node.js',
+                'Express.js',
+                'MySQL',
+                'MongoDB',
+            ],
         },
     ],
 };

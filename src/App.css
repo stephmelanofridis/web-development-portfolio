@@ -18,7 +18,7 @@
 
 .main-content {
     background-color: white;
-    min-height: 100vh;
+    min-height: 70vh;
     border-radius: 6px;
     margin-bottom: 30px;
     padding: 30px;
@@ -59,11 +59,10 @@
 }
 
 .section .section-text {
-    font-size: 17px;
-    font-weight: 100;
+    font-size: 15px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
     color: var(--chocolateblack);
     padding: 25px;
-    line-height: 1;
     text-align: justify;
     margin-top: 20px;
 }

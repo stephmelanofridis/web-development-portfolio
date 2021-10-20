@@ -17,10 +17,10 @@
     background-color: var(--burntorange);
 }
 
-ul.MuiTimeline-root {
-    padding-top: 5px;
+.resume-timeline .MuiTimeline-root {
+    padding-top: 0px;
 }
 
-.timeline-content p.MuiTypography-root {
-    padding-top: 12px;
+.resume-timeline .timeline-title {
+    padding-top: 10px;
 }

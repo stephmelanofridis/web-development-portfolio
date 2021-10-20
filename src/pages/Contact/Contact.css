@@ -1,0 +1,24 @@
+.contact-container {
+    padding: 10px;
+}
+
+.contact-text {
+    margin: 20px 0 0 0;
+    font-size: 15px;
+}
+
+.top-item .contact-info-item {
+    padding-top: 30px;
+}
+
+.contact-info-item {
+    font-size: 12px;
+    padding-top: 10px;
+    color: #777;
+}
+
+.contact-info-item span {
+    font-weight: 700;
+    color: var(--chocolateblack);
+}
+
