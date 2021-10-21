@@ -3,22 +3,20 @@ import React, { useState } from 'react';
 import { Typography, Grid, Card, CardActionArea, CardMedia, CardContent, Grow, Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
 import './Project.css';
 
-const ProjectCard = ({ title, caption, description, image, project, links }) => {
+const ProjectCard = ({ title, caption, description, image, project, link }) => {
 
     {/* const [projectDialog, setProjectDialog] = useState(false) */ }
 
     return (
         <Grid item xs={6}>
             <Grow in timeout={1000}>
-                <Card className='custom-card' /*onClick={() => setProjectDialog(project)}*/ >
+                <Card className='custom-card'/*onClick={() => setProjectDialog(project)}*/ >
                     <CardActionArea>
-                        <CardMedia className='custom-card-image' image={image} title={title}>
-                            <CardContent>
-                                <img src={image} alt='Screenshot of project'></img>
-                                <Typography className='custom-card-title'>{title}</Typography>
-                                <Typography variant='body2' className='custom-class-description'>{description}</Typography>
-                            </CardContent>
-                        </CardMedia>
+                        <CardMedia className='custom-card-image' image={image} title={title} />
+                        <CardContent>
+                            <Typography className='custom-card-title'>{title}</Typography>
+                            <Typography variant='body2' className='custom-class-description'>{description}</Typography>
+                        </CardContent>
                     </CardActionArea>
                 </Card>
             </Grow>
@@ -31,6 +29,9 @@ const ProjectCard = ({ title, caption, description, image, project, links }) => 
                     <a href={link} target='_blank'>{link.icon}</a>
                 )))}</DialogActions>
             </Dialog>
+                                            {links.map((link => (
+                                    <a href={link} >{link.icon}</a>
+                                )))}
             */}
 
         </Grid>

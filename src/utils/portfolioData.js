@@ -109,7 +109,7 @@ export default {
     ],
     projects: [
         {
-            image: require('../assets/images/projects/password-generator.PNG'),
+            image: require('../assets/images/projects/password-generator.PNG').default,
             title: 'Password Generator',
             description: 'A random password generator created in week 3 of coding bootcamp.',
             caption: '',
@@ -119,7 +119,7 @@ export default {
             ],
         },
         {
-            image: require('../assets/images/projects/group-project-covid-stats.PNG'),
+            image: require('../assets/images/projects/group-project-covid-stats.PNG').default,
             title: 'Group Project 1 - Covid Statistics',
             description: 'A Covid-19 Statistics app for first group project created in week 7 of coding bootcamp.',
             caption: '',
@@ -129,7 +129,7 @@ export default {
             ],
         },
         {
-            image: require('../assets/images/projects/tech-blog.PNG'),
+            image: require('../assets/images/projects/tech-blog.PNG').default,
             title: 'Tech Blog',
             description: 'A CMS style tech blog created in week 15 of coding bootcamp.',
             caption: '',
@@ -139,7 +139,7 @@ export default {
             ],
         },
         {
-            image: require('../assets/images/projects/budgie.PNG'),
+            image: require('../assets/images/projects/budgie.PNG').default,
             title: 'Budgie',
             description: 'A budgeting app for second group project created in week 16 of coding bootcamp.',
             caption: '',

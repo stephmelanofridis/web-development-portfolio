@@ -14,9 +14,9 @@ const Portfolio = () => {
             </Grid>
 
             <Grid item xs={12}>
-                <Grid container spacing={2}>
+                <Grid container spacing={3} className='project-card-container'>
                     {Object.keys(portfolioData.projects).map(key => (
-                        <ProjectCard title={portfolioData.projects[key].title} caption={portfolioData.projects[key].caption} description={portfolioData.projects[key].description} image={portfolioData.projects[key].image} links={portfolioData.projects[key].links} />
+                        <ProjectCard title={portfolioData.projects[key].title} caption={portfolioData.projects[key].caption} description={portfolioData.projects[key].description} image={portfolioData.projects[key].image} link={portfolioData.projects[key].links} />
                     ))}
                     {/*
                         <Grid item xs={6}>
