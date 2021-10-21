@@ -10,7 +10,7 @@ const About = () => {
             <Grid container className='section'>
                 <Grid item className='section-title'>
                     <span></span>
-                    <h2 className='section-title-text' >About Me</h2>
+                    <h2 className='section-title-text' >About me</h2>
                 </Grid>
                 <Grid item xs={12}>
                     <Typography className='section-text about-me-text'>{portfolioData.about}</Typography>
