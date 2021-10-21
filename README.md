@@ -25,7 +25,7 @@ Technologies used to make this site were:
 
 ## Deployed Site
 
-Link to deployed site: 
+Link to deployed site: https://stephmelanofridis.github.io/web-development-portfolio/
 
 ## License
 
