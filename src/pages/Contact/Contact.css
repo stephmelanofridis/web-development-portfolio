@@ -4,7 +4,10 @@
 
 .contact-text {
     margin: 20px 0 0 0;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: bilo, sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .top-item .contact-info-item {

@@ -8,8 +8,11 @@
 }
 
 .header-left .header-link:link {
-    font-weight: 500;
     color: var(--chocolateblack);
+    text-transform: uppercase;
+    font-family: bilo, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .header-left .header-link:hover {

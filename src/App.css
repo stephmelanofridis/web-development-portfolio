@@ -60,11 +60,13 @@
 }
 
 .section .section-text {
-    font-size: 18px;
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 24px;
+    font-family: bilo, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1;
     color: var(--chocolateblack);
     padding: 25px;
-    text-align: justify;
     margin-top: 20px;
 }
 
