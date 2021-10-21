@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/stephmelanofridis/static/css/main.0526d97a.chunk.css",
+    "main.js": "/stephmelanofridis/static/js/main.a52db6d7.chunk.js",
+    "main.js.map": "/stephmelanofridis/static/js/main.a52db6d7.chunk.js.map",
+    "runtime-main.js": "/stephmelanofridis/static/js/runtime-main.6729183b.js",
+    "runtime-main.js.map": "/stephmelanofridis/static/js/runtime-main.6729183b.js.map",
+    "static/css/2.c1256375.chunk.css": "/stephmelanofridis/static/css/2.c1256375.chunk.css",
+    "static/js/2.10051cfb.chunk.js": "/stephmelanofridis/static/js/2.10051cfb.chunk.js",
+    "static/js/2.10051cfb.chunk.js.map": "/stephmelanofridis/static/js/2.10051cfb.chunk.js.map",
+    "index.html": "/stephmelanofridis/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/stephmelanofridis/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.0526d97a.chunk.css.map": "/stephmelanofridis/static/css/main.0526d97a.chunk.css.map",
+    "static/js/2.10051cfb.chunk.js.LICENSE.txt": "/stephmelanofridis/static/js/2.10051cfb.chunk.js.LICENSE.txt",
+    "static/media/CV_Steph_Melanofridis.pdf": "/stephmelanofridis/static/media/CV_Steph_Melanofridis.dde42240.pdf",
+    "static/media/index.css": "/stephmelanofridis/static/media/background-image.2a965e3c.jpeg",
+    "static/media/budgie.PNG": "/stephmelanofridis/static/media/budgie.6faf26d5.PNG",
+    "static/media/group-project-covid-stats.PNG": "/stephmelanofridis/static/media/group-project-covid-stats.499b2d1a.PNG",
+    "static/media/password-generator.PNG": "/stephmelanofridis/static/media/password-generator.3d47449d.PNG",
+    "static/media/profile-picture.jpg": "/stephmelanofridis/static/media/profile-picture.fbd1b584.jpg",
+    "static/media/tech-blog.PNG": "/stephmelanofridis/static/media/tech-blog.30233849.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6729183b.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.10051cfb.chunk.js",
+    "static/css/main.0526d97a.chunk.css",
+    "static/js/main.a52db6d7.chunk.js"
+  ]
+}
