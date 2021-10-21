@@ -114,8 +114,8 @@ export default {
             description: 'A random password generator created in week 3 of coding bootcamp.',
             caption: '',
             links: [
-                { GitHubLink: 'https://github.com/stephmelanofridis/homework-03-password-generator', icon: <GitHubIcon /> },
-                { DeployedProjectLink: 'https://stephmelanofridis.github.io/homework-03-password-generator/', icon: <CloudUploadIcon /> },
+                { text: 'View GitHub Repository', link: 'https://github.com/stephmelanofridis/homework-03-password-generator', icon: <GitHubIcon /> },
+                { text: 'View deployed application', link: 'https://stephmelanofridis.github.io/homework-03-password-generator/', icon: <CloudUploadIcon /> },
             ],
         },
         {

@@ -2,10 +2,8 @@
 import React from 'react';
 import { Typography, Grid, Card, CardActionArea, CardMedia, CardContent, Grow } from '@mui/material';
 import './Project.css';
-import { Link } from 'react-router-dom';
 
-const ProjectCard = ({ title, caption, description, image, link }) => {
-
+const ProjectCard = ({ title, caption, description, image, links }) => {
     return (
         <Grid item xs={6}>
             <Grow in timeout={1000}>
@@ -15,8 +13,8 @@ const ProjectCard = ({ title, caption, description, image, link }) => {
                         <CardContent>
                             <Typography className='custom-card-title'>{title}</Typography>
                             <Typography variant='body2' className='custom-card-description'>{description}</Typography>
-                            {Object.keys(links).map(link => (
-                                <a href={link}>{link.icon}</a>
+                            {links.map(link => (
+                                <a href={link}>{link.text}{link.icon}</a>
                             ))}
                         </CardContent>
                     </CardActionArea>
