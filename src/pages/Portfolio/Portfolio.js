@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Grid, Card, CardActionArea, CardMedia, CardContent, Grow } from '@mui/material';
+import { Grid } from '@mui/material';
 import ProjectCard from '../../components/Project/Project';
 import portfolioData from '../../utils/portfolioData';
 import './Portfolio.css';
@@ -16,24 +16,8 @@ const Portfolio = () => {
             <Grid item xs={12}>
                 <Grid container spacing={3} className='project-card-container'>
                     {Object.keys(portfolioData.projects).map(key => (
-                        <ProjectCard title={portfolioData.projects[key].title} caption={portfolioData.projects[key].caption} description={portfolioData.projects[key].description} image={portfolioData.projects[key].image} link={portfolioData.projects[key].links} />
+                        <ProjectCard title={portfolioData.projects[key].title} caption={portfolioData.projects[key].caption} description={portfolioData.projects[key].description} image={portfolioData.projects[key].image} links={portfolioData.projects[key].links} />
                     ))}
-                    {/*
-                        <Grid item xs={6}>
-                            <Grow in timeout={1000}>
-                                <Card>
-                                    <CardActionArea>
-                                        <CardMedia>
-                                            <CardContent>
-                                                <Typography>{projects.title}</Typography>
-                                                <Typography>{projects.description}</Typography>
-                                            </CardContent>
-                                        </CardMedia>
-                                    </CardActionArea>
-                                </Card>
-                            </Grow>
-                        </Grid>
-                        */}
                 </Grid>
             </Grid>
 

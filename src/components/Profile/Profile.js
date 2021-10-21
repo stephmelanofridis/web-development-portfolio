@@ -20,7 +20,7 @@ const Profile = () => {
                 <div className='divider'></div>
                 <div className='center'>
                     {Object.keys(portfolioData.links).map(key => (
-                        <CustomButton endIcon={portfolioData.links[key].icon} text={portfolioData.links[key].text} link={portfolioData.links[key].link} className='btn' />
+                        <CustomButton endIcon={portfolioData.links[key].icon} text={portfolioData.links[key].text} link={portfolioData.links[key].link} CV={portfolioData.DownloadCV[key]} className='btn' />
                     ))}
                 </div>
             </div>

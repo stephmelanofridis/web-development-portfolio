@@ -5,7 +5,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className='footer'>
-            <Typography className='footer-name'>Steph Melanofridis</Typography>
+            <Typography className='footer-name'><span className='footer-text'>Steph Melanofridis</span></Typography>
         </div>
     )
 }

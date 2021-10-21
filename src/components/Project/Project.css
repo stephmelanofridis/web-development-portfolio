@@ -12,9 +12,9 @@ div.MuiCardContent-root {
     color: var(--lightcream);
 }
 
-div.MuiPaper-root:hover {
+/* div.MuiPaper-root:hover {
     outline: var(--chocolateblack) solid 2px;
-}
+}*/
 
 div.MuiCardContent-root .custom-card-title {
     font-family: condor-condensed, sans-serif;
@@ -30,3 +30,23 @@ div.MuiCardContent-root .custom-card-description {
 .custom-card-image {
     height: 240px;
 }
+
+div.project-links {
+    padding-top: 10px;
+}
+
+.project-links a {
+    color: #999;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.project-links a:hover {
+    color: var(--lightcream);
+}
+
+.project-links .link-text {
+    margin-left: 7px;
+}
+

@@ -4,6 +4,7 @@ import { Typography, Grid, Card, CardActionArea, CardMedia, CardContent, Grow } 
 import './Project.css';
 
 const ProjectCard = ({ title, caption, description, image, links }) => {
+    console.log(links);
     return (
         <Grid item xs={6}>
             <Grow in timeout={1000}>
@@ -14,7 +15,9 @@ const ProjectCard = ({ title, caption, description, image, links }) => {
                             <Typography className='custom-card-title'>{title}</Typography>
                             <Typography variant='body2' className='custom-card-description'>{description}</Typography>
                             {links.map(link => (
-                                <a href={link}>{link.text}{link.icon}</a>
+                                <div className='project-links'>
+                                    <a href={link.link}>{link.icon}<span className='link-text'>{link.text}</span></a>
+                                </div>
                             ))}
                         </CardContent>
                     </CardActionArea>

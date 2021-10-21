@@ -1,16 +1,25 @@
 .footer {
-    background-color: rgba(249,239,220, 0.8);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: white;
     color: var(--chocolateblack);
     text-align: right;
-    min-height: 70px;
+    min-height: 67px;
     border-radius: 8px;
-    padding: 20px 25px;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
 }
 
-p.footer-name {
+.footer-text {
+    color: var(--burntorange);
     text-transform: uppercase;
     font-family: charcuterie-deco, sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: var(--chocolateblack);
+    padding: 22px 20px 22px 20px;
+    display: flex;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
 }

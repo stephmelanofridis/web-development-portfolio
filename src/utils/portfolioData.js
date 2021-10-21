@@ -114,7 +114,7 @@ export default {
             description: 'A random password generator created in week 3 of coding bootcamp.',
             caption: '',
             links: [
-                { text: 'View GitHub Repository', link: 'https://github.com/stephmelanofridis/homework-03-password-generator', icon: <GitHubIcon /> },
+                { text: 'View GitHub repository', link: 'https://github.com/stephmelanofridis/homework-03-password-generator', icon: <GitHubIcon /> },
                 { text: 'View deployed application', link: 'https://stephmelanofridis.github.io/homework-03-password-generator/', icon: <CloudUploadIcon /> },
             ],
         },
@@ -124,8 +124,8 @@ export default {
             description: 'A Covid-19 Statistics app for first group project created in week 7 of coding bootcamp.',
             caption: '',
             links: [
-                { GitHubLink: 'https://github.com/rpgarde/project-1-covid-stats', icon: <GitHubIcon /> },
-                { DeployedProjectLink: 'https://rpgarde.github.io/project-1-covid-stats/', icon: <CloudUploadIcon /> },
+                { text: 'View GitHub repository', link: 'https://github.com/rpgarde/project-1-covid-stats', icon: <GitHubIcon /> },
+                { text: 'View deployed application', link: 'https://rpgarde.github.io/project-1-covid-stats/', icon: <CloudUploadIcon /> },
             ],
         },
         {
@@ -134,8 +134,8 @@ export default {
             description: 'A CMS style tech blog created in week 15 of coding bootcamp.',
             caption: '',
             links: [
-                { GitHubLink: 'https://github.com/stephmelanofridis/homework-15-tech-blog', icon: <GitHubIcon /> },
-                { DeployedProjectLink: 'https://homework-15-tech-blog.herokuapp.com/loginsignup', icon: <CloudUploadIcon /> },
+                { text: 'View GitHub repository', link: 'https://github.com/stephmelanofridis/homework-15-tech-blog', icon: <GitHubIcon /> },
+                { text: 'View deployed application', link: 'https://homework-15-tech-blog.herokuapp.com/loginsignup', icon: <CloudUploadIcon /> },
             ],
         },
         {
@@ -144,9 +144,10 @@ export default {
             description: 'A budgeting app for second group project created in week 16 of coding bootcamp.',
             caption: '',
             links: [
-                { GitHubLink: 'https://github.com/Fonyx/budgie', icon: <GitHubIcon /> },
-                { DeployedProjectLink: 'https://fonyx-budgie.herokuapp.com/', icon: <CloudUploadIcon /> },
+                { text: 'View GitHub repository', link: 'https://github.com/Fonyx/budgie', icon: <GitHubIcon /> },
+                { text: 'View deployed application', link: 'https://fonyx-budgie.herokuapp.com/', icon: <CloudUploadIcon /> },
             ],
         },
     ],
+    DownloadCV: require('../assets/pdf/CV_Steph_Melanofridis.pdf'),
 };
