@@ -1,6 +1,6 @@
 .footer {
-    background-color: var(--chocolateblack);
-    color: var(--lightcream);
+    background-color: var(--lightcream);
+    color: var(--chocolateblack);
     text-align: right;
     min-height: 70px;
     border-radius: 8px;
