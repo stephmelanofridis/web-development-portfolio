@@ -16,7 +16,7 @@ const ProjectCard = ({ title, caption, description, image, links }) => {
                             <Typography variant='body2' className='custom-card-description'>{description}</Typography>
                             {links.map(link => (
                                 <div className='project-links'>
-                                    <a href={link.link}>{link.icon}<span className='link-text'>{link.text}</span></a>
+                                    <a href={link.link} target='_blank'>{link.icon}<span className='link-text'>{link.text}</span></a>
                                 </div>
                             ))}
                         </CardContent>
