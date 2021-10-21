@@ -1,5 +1,5 @@
 button.MuiButton-root {
- background-color: var(--lightcream);
+ background-color: var(--chocolateblack);
  border-radius: 50px;
  padding: 5px 20px;
  margin: 10px;
@@ -9,13 +9,13 @@ button.MuiButton-root {
 
 button.MuiButton-root:hover {
     color: var(--burntorange);
-    background-color: var(--lightcream);
+    background-color: var(--chocolateblack);
     text-transform:none;
     font-weight: 700;
 }
 
 button.MuiButton-root a {
-    color: var(--chocolateblack);
+    color: var(--lightcream);
     text-transform:none;
     font-weight: 700;
    }
@@ -28,14 +28,14 @@ button.MuiButton-root p {
 
 button.MuiButton-root a:hover {
     color: var(--burntorange);
-    background-color: var(--lightcream);
+    background-color: var(--chocolateblack);
     text-transform:none;
     font-weight: 700;
    }
 
 button.MuiButton-root p:hover {
     color: var(--burntorange);
-    background-color: var(--lightcream);
+    background-color: var(--chocolateblack);
     text-transform:none;
     font-weight: 700;
 }
