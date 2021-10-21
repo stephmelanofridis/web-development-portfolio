@@ -39,3 +39,7 @@ button.MuiButton-root p:hover {
     text-transform:none;
     font-weight: 700;
 }
+
+.download {
+    text-decoration: none;
+}
