@@ -12,7 +12,7 @@ export default {
     bio: 'Motivated web developer currently studying and looking for full time work.',
     birthday: '30th October 1993',
     email: 'stephmelanofridis@bigpond.com',
-    address: '76 Tindale Street, MUSWELLBROOK, NSW 2333',
+    location: 'Muswellbrook, NSW 2333',
     phone: '0432 954 263',
     links: {
         LinkedIn: {

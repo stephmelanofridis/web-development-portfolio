@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button } from '@mui/material';
-import { Typography } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import './Button.css';
 
 const CustomButton = ({ text, endIcon, link, CV }) => {

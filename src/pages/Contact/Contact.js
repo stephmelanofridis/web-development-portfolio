@@ -50,7 +50,7 @@ const Contact = () => {
                         <Grid container>
                             <Grid item className='top-item'>
                                 <Typography xs={12} className='contact-info-item'>
-                                    <span>Address:</span> {portfolioData.address}
+                                    <span>Location:</span> {portfolioData.location}
                                 </Typography>
                             </Grid>
                             <Grid item>
