@@ -15,7 +15,7 @@ const ProjectCard = ({ title, caption, description, image, project, link }) => {
                         <CardMedia className='custom-card-image' image={image} title={title} />
                         <CardContent>
                             <Typography className='custom-card-title'>{title}</Typography>
-                            <Typography variant='body2' className='custom-class-description'>{description}</Typography>
+                            <Typography variant='body2' className='custom-card-description'>{description}</Typography>
                         </CardContent>
                     </CardActionArea>
                 </Card>

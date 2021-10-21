@@ -7,8 +7,24 @@
     outline-width: 0px;
 }
 
-.custom-card-title {
-    font-weight: 700px;
+div.MuiCardContent-root {
+    background-color: var(--chocolateblack);
+    color: var(--lightcream);
+}
+
+div.MuiPaper-root:hover {
+    outline: var(--chocolateblack) solid 2px;
+}
+
+div.MuiCardContent-root .custom-card-title {
+    font-family: condor-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+div.MuiCardContent-root .custom-card-description {
+    color: #999;
 }
 
 .custom-card-image {
