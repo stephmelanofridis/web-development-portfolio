@@ -4,9 +4,13 @@
 
 Our task this week was to re-build our web development portfolio using React. My portfolio features an about me homepage, an online portfolio which includes some of the personal and group projects I have worked on during bootcamp, an online resume, a contact page and links to my GitHub and LinkedIn profile. There is also a downloadable CV as well. The portfolio is deployed on github pages. 
 
-![image](https://user-images.githubusercontent.com/82196946/138229115-c290d25d-82f2-4890-a5d1-0c5b8cb7ebb5.png)
+![image](https://user-images.githubusercontent.com/82196946/138379744-3dc7366e-54c1-4f5f-a320-4212a9fa6e21.png)
 
-![image](https://user-images.githubusercontent.com/82196946/138229828-b9cba773-f6c7-491e-9d05-7d83daebf853.png)
+![image](https://user-images.githubusercontent.com/82196946/138379826-cfea4a05-3747-4c88-b4bd-a20fd63d526c.png)
+
+![image](https://user-images.githubusercontent.com/82196946/138379882-dc02fc0e-20c8-4e8f-83d2-6ef7fdb17723.png)
+
+![image](https://user-images.githubusercontent.com/82196946/138379954-663da0da-4eaa-4f96-9630-81f729cec81e.png)
 
 ## Table of Contents
 

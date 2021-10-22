@@ -22,7 +22,7 @@
     "web-vitals": "^1.1.2",
     "webpack": "^4.44.2"
   },
-  "homepage": "https://github.com/stephmelanofridis",
+  "homepage": "https://stephmelanofridis.github.io/web-development-portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
